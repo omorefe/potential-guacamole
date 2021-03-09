@@ -1,16 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     width: 300px;
     height: 300px;
-
-    border: 5   px solid gray; 
-
-    font-family: "Muli";
-    font-weight: bold;
 
     display: flex;
     justify-content: center;
