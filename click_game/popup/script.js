@@ -1,14 +1,20 @@
-let elm = document.createElement("button")
-elm.style = `
-    position: absolute;
-    top: ${Math.floor(Math.random()*300)}px;
-    left: ${Math.floor(Math.random()*300)}px;
-    width: 30px;
-    height: 30px;
-`
+let buttons = {
+    amount: 3
+}
+
+for (let i = 0; i < buttons.amount; i++) {
+    let elm = document.createElement("button")
+let score = document.getElementById("score-constant")
+
+elm.classList.add('button')
+elm.style.top = `${Math.floor(Math.random()*270) + 15}px`
+elm.style.left = `${Math.floor(Math.random()*270) + 15}px`
+
 elm.addEventListener('click', () => {
-    elm.style.top = `${Math.floor(Math.random()*300)}px`
-    elm.style.left = `${Math.floor(Math.random()*300)}px`
+    score.innerHTML = parseInt(score.innerHTML) + 1
+    elm.style.top = `${Math.floor(Math.random()*270) + 15}px`
+    elm.style.left = `${Math.floor(Math.random()*270) + 15}px`
 })
 
 document.body.append(elm);
+}
