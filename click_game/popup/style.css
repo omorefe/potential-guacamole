@@ -3,9 +3,11 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body {
     width: 300px;
-    height: 375px;
+    height: 450px;
 }
 
 .button {
@@ -13,23 +15,35 @@ body {
 
     width: 30px;
     height: 30px;
+
+    transition: all 200ms ease;
 }
 
 .bottom {
-    border-top: 3px solid black;
     width: 100%;
-    height: 75px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 146px;
 
     position: absolute;
     bottom: 0;
 }
 
+.bottom div {
+    border-top: 3px solid black;
+
+    width: 100%;
+    height: 72px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .score {
     user-select: none;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+
+    padding: 10px;
 }
