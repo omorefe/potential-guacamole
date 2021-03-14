@@ -14,7 +14,7 @@ Great question! You can find out on the [Installation Wiki](https://github.com/O
 
 Also great question! I haven't wrote instructions yet, but when I do I will tell you
 
-## Where do I go if I have a question/find a bug?
+## Where do I go if I have a suggestion, question, or find a bug?
 
 Go to the [issues](https://github.com/OfficialAwesomeDude/potential-guacamole/issues) section of my repository, and put it there. Thank you for letting us know about it!
 
